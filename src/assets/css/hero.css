@@ -1,0 +1,47 @@
+.hero *{
+    text-align: center;
+    margin: 10px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h3{
+    font-size: 40px;
+}
+
+.hero p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.primary-btn{
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 30px 0px;
+    display: flex;
+    border: 1px white solid;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease-in all;
+    width: 115px;
+}
+
+.primary-btn a{
+    flex: 1;
+    color: inherit;
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.primary-btn:hover{
+    background-color: white;
+    color:  rgb(32, 33, 36);
+    border: none;
+}

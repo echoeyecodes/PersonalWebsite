@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+}
+
+footer a svg{
+    fill: white;
+    width: 24px;
+    height: 24px;
+}
+
+footer a{
+    margin-right: 20px;
+    fill: white;
+}

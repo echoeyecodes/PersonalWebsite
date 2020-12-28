@@ -1,0 +1,74 @@
+#quote{
+    margin: 10px 0px;
+}
+
+.project-item{
+    flex: 0.5;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project-item h3{
+    font-size: 24px !important;
+    margin: 10px 5px 5px 0px;
+}
+
+.project-item p{
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+#projects-container{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#technologies-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.skill-item{
+    border-radius: 10px;
+    border: 1px white solid;
+    padding: 5px 15px;
+    font-size: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px;
+}
+
+.download-btn{
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+}
+
+.download-btn a{
+    flex: 1;
+    color: rgb(32, 33, 36);
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #projects-container{
+        margin: 20px 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

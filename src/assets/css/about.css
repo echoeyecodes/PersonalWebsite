@@ -1,0 +1,40 @@
+#about{
+    display: flex;
+    margin: 50px 10px;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#about h3{
+    font-size: 30px
+}
+
+#about-description{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+
+#reach-out-btn{
+    padding: 5px 10px;
+    width: 115px;
+    background-color: transparent;
+    color: white;
+}
+
+#technologies-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+#technologies-container p{
+    border-radius: 10px;
+    border: 1px white solid;
+    padding: 5px 15px;
+    font-size: 14px !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px;
+}
