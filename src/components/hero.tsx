@@ -21,7 +21,7 @@ function Hero() {
         <div className="hero">
             <h3>Hi! I'm Oluwafemi Obajuluwa</h3>
 
-            <p>A fullstack Android developer, and an aspiring Video Game designer!</p>
+            <p>A fullstack mobile application developer, and an aspiring Video Game designer!😊</p>
 
             <PrimaryButton text="Reach out" link="mailto:femiobajuluwa@gmail.com" />
         </div>
