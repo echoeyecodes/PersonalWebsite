@@ -51,7 +51,7 @@ function About(){
                 <br />
                 
                     <h3>Resume</h3>
-                    <PrimaryButton text="Download" link="https://drive.google.com/file/d/1m7Tln_4c2LJaASWjK822QhIIhxxNa2GV/view?usp=sharing" />
+                    <PrimaryButton text="Download" link="https://drive.google.com/file/d/1sRZOo_F_9XQ6fcfhwEQiaxozso5DfF81/view?usp=sharing" />
 
                 <br />
                 <br />
